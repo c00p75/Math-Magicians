@@ -25,7 +25,7 @@
 }
 
 #calc-container .col:last-child {
-  background: orange;
+  background-color: orange;
 }
 
 #calc-container .row:last-child {
@@ -35,8 +35,14 @@
 #calc-container button {
   width: 100%;
   border: 0;
+  outline: none;
+}
+
+#calc-container button:active {
+  filter: brightness(85%) !important;
 }
 
 #calc-container #result {
   background-color: gray;
+  font-weight: bold;
 }

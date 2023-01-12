@@ -24,10 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="https://avatars.githubusercontent.com/u/22550229?s=200&v=4" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Math Magician</b></h3>
+  <h1><b>Math Magician</b></h1>
 
 </div>
 
