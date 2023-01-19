@@ -1,0 +1,49 @@
+
+#calc-container > div > * {
+  height: 70px;
+}
+
+#calc-container .col,
+#calc-container .col-6 {
+  border-top: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+}
+
+#calc-container .col:first-child,
+#calc-container .col-6 {
+  border-left: 1px solid gainsboro;
+}
+
+#calc-container .col:last-child {
+  background-color: orange;
+}
+
+#calc-container .row:last-child {
+  border-bottom: 1px solid gainsboro;
+}
+
+#calc-container button {
+  width: 100%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+#calc-container button:active {
+  filter: brightness(75%) !important;
+}
+
+#calc-container button:hover {
+  filter: brightness(95%);
+}
+
+#calc-container #result {
+  background-color: gray;
+  font-weight: bold;
+}
+
+.calc-text {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}

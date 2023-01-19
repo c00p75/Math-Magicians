@@ -3,46 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
 }
 
-#calc-container {
-  width: 600px;
-}
-
-#calc-container > div > * {
-  height: 70px;
-}
-
-#calc-container .col,
-#calc-container .col-6 {
-  border-top: 1px solid gainsboro;
-  border-right: 1px solid gainsboro;
-}
-
-#calc-container .col:first-child,
-#calc-container .col-6 {
-  border-left: 1px solid gainsboro;
-}
-
-#calc-container .col:last-child {
-  background-color: orange;
-}
-
-#calc-container .row:last-child {
-  border-bottom: 1px solid gainsboro;
-}
-
-#calc-container button {
-  width: 100%;
-  border: 0;
-  outline: none;
-}
-
-#calc-container button:active {
-  filter: brightness(85%) !important;
-}
-
-#calc-container #result {
-  background-color: gray;
-  font-weight: bold;
+.pageContainer {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
 }

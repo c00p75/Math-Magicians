@@ -1,0 +1,24 @@
+.navBar {
+  box-shadow: 0 1px 5px 0 black;
+  background-color: darkcyan;
+}
+
+.navBar li {
+  padding: 0 10px;
+  border-right: 1px solid white;
+  height: min-content;
+}
+
+.navBar li:last-child {
+  padding: 0 10px;
+  border: 0;
+}
+
+.navBar li a {
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  color: orangered !important;
+}
