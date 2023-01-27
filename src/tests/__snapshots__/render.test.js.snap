@@ -254,3 +254,23 @@ exports[`Test if Home renders correctly 2`] = `
   </ul>
 </nav>
 `;
+
+exports[`Test if Quote renders correctly 1`] = `
+<div
+  className=" pageContainer text-center"
+>
+  <p
+    style={
+      Object {
+        "fontFamily": "Tangerine",
+        "fontSize": "2.5em",
+      }
+    }
+  >
+    "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding."
+  </p>
+  <span>
+    - Willian Paul Thurtson
+  </span>
+</div>
+`;
