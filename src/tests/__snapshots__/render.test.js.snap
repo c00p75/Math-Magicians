@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if Calculator renders correctly 1`] = `
+<div
+  className="container-fluid d-md-flex align-items-start justify-content-center"
+>
+  <div
+    className="calc-text px-5 pt-5"
+  >
+    <p>
+      Let's do some math!
+    </p>
+  </div>
+  <div
+    className="col container text-center pt-5"
+    id="calc-container"
+  >
+    <div
+      className="row g-2"
+    >
+      <div
+        className="col d-flex justify-content-end align-items-center"
+        id="result"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="row justify-content-center align-items-center g-2"
+    >
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="row justify-content-center align-items-center g-2"
+    >
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="row justify-content-center align-items-center g-2"
+    >
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="row justify-content-center align-items-center g-2"
+    >
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row justify-content-center align-items-center g-2"
+    >
+      <button
+        className="col-6"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="col"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test if Home renders correctly 1`] = `
+<div
+  className="pageContainer text-center"
+>
+  <h2
+    className="p-2"
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Welcome to our page
+  </h2>
+  <div>
+    Math Magicians is a website for all fans of mathematics. Make simple calculations and view some of your favorite math quotes!
+  </div>
+</div>
+`;
+
+exports[`Test if Home renders correctly 2`] = `
+<nav
+  className="px-2 navBar d-flex justify-content-between align-items-center flex-wrap"
+>
+  <h1
+    style={
+      Object {
+        "color": "aliceblue",
+        "fontFamily": "Rubik Vinyl",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Math Magicians
+  </h1>
+  <ul
+    className="d-flex "
+  >
+    <li>
+      <a
+        aria-current="page"
+        className="active"
+        exact="true"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        exact="true"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        exact="true"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
