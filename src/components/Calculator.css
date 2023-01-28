@@ -1,3 +1,6 @@
+#calc-container {
+  max-width: 450px;
+}
 
 #calc-container > div > * {
   height: 70px;

@@ -15,11 +15,11 @@ const Calculator = () => {
   // Definfing HTML that should be rendered to the DOM
   return (
     <div className="container-fluid d-md-flex align-items-start justify-content-center">
-      <div className="calc-text px-2 pt-5">
+      <div className="calc-text px-5 pt-5">
         <p>Let&apos;s do some math!</p>
       </div>
 
-      <div className="col container text-center px-5 pt-5" id="calc-container">
+      <div className="col container text-center pt-5" id="calc-container">
         <div className="row g-2">
           <div className="col d-flex justify-content-end align-items-center" id="result">
             {initCalc.next || initCalc.total || 0}

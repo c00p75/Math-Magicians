@@ -54,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Movie Site <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 **Math Magician** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations as well as read a random math-related quote.
 
@@ -77,7 +77,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="">Comming soon</a></li>
+    <li><a href="render.com">Render is used to deploy this page</a></li>
   </ul>
 </details>
 
@@ -101,15 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Comming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Video Link -->
-
-## 🎞 Video Link <a name="video-link"></a>
-
-- Comming soon
+- https://math-magicians-v6z8.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
